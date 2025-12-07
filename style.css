@@ -1,0 +1,423 @@
+body {
+  background-color: black;
+  color: #efb7b7;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-family: "Ballet", cursive;
+  font-size: 80px;
+  padding: 50px;
+  color: #781d42;
+}
+.btn {
+  border: none;
+  background-color: rgba(red, green, blue, 0.1);
+  margin: -30px 50px 30px 50px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: #bd4b4b 0.9;
+}
+h2 {
+  font-family: "Unna", serif;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wine {
+  height: 300px;
+  width: 200px;
+  margin-top: 50px;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h4 {
+  font-family: "Unna", serif;
+  font-size: 30px;
+}
+h3 {
+  font-family: "Unna", serif;
+  font-size: 40px;
+}
+
+.wlc {
+  color: #bd4b4b;
+  font-size: 60px;
+  font-family: "Great Vibes", cursive;
+}
+.count {
+  font-size: 5px;
+}
+@media all and (max-width: 1300px){ /* ready */
+  h1 {
+    font-size: 70px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .btn {
+      margin: -30px 0px 20px 50px;
+  }
+  .carousel-item {
+    width: 50%;
+  }
+  .w-100 {
+    margin-left: 320px !important;
+}
+  .w-50 {
+    margin-left: 480px !important;
+  }
+}
+@media all and (max-width: 1024px){ /* ready */
+  h1 {
+      font-size: 65px;
+  }
+  .w-100 {
+    margin-left: 260px !important;
+  }
+  .w-50 {
+    margin-left: 384px !important;
+  }
+  .btn {
+    padding-bottom: 2px;
+  }
+  svg {
+    width: 45px;
+    height: auto;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .wine {
+    margin-top: 20px;
+    height: auto;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 950px){ /* ready */
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .btn {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .w-100 {
+    margin-left: 228px !important;
+  }
+  .w-50 {
+    margin-left: 308px !important;
+  }
+  .d-block.mx-auto.w-50 {
+    width: 65% !important;
+  }
+  .counter {
+    margin-top: 40px;
+  }
+  .wine {
+    width: 150px;
+  }
+}
+@media all and (max-width: 860px){ /* ready */
+  .w-100 {
+    margin-left: 213px !important;
+  }
+  .w-50 {
+    margin-left: 288px !important;
+  }
+}
+@media all and (max-width: 820px){ /* ready */
+  .w-100 {
+    margin-left: 205px !important;
+  }
+  .w-50 {
+    margin-left: 277px !important;
+  }
+}
+@media all and (max-width: 770px){ /* ready */
+  .w-100 {
+    margin-left: 198px !important;
+  }
+  .w-50 {
+    margin-left: 259px !important;
+  }
+}
+@media all and (max-width: 750px){ /* ready */
+  .w-100 {
+    margin-left: 178px !important;
+  }
+  .w-50 {
+    margin-left: 240px !important;
+  }
+  .container{
+    max-width: 600px;
+  }
+  .wine {
+    height: 230px;
+    width: 140px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+      font-size: 40px;
+  }
+  h3 {
+      font-size: 30px;
+  }
+  .wlc {
+      font-size: 50px;
+  }
+}
+@media all and (max-width: 650px){ /* ready */
+  h1 {
+    font-size: 45px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  svg {
+    width: 40px;
+  }
+  .btn {
+    margin-left: 30px;
+  }
+  .d-block.mx-auto.w-100 {
+    width: 90% !important;
+  }
+  .w-100 {
+    margin-left: 176px !important;
+  }
+  .w-50 {
+    margin-left: 216px !important;
+  }
+  .container{
+    max-width: 600px;
+  }
+  .wine {
+    height: auto;
+    width: 140px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h2 {
+      font-size: 35px;
+  }
+  h3 {
+      font-size: 27px;
+  }
+  .wlc {
+      font-size: 45px;
+  }
+}
+@media all and (max-width: 560px){ /* ready */
+  .btn {
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .block {
+    width: 90px;
+  }
+  .wine {
+    width: 90px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .w-100 {
+    margin-left: 148px !important;
+  }
+  .w-50 {
+    margin-left: 182px !important;
+  }
+}
+@media all and (max-width: 480px){ /* ready */
+  .w-100 {
+    margin-left: 132px !important;
+  }
+  .w-50 {
+    margin-left: 162px !important;
+  }
+}
+@media all and (max-width: 450px){ /* ready */
+  .w-100 {
+    margin-left: 118px !important;
+  }
+  .w-50 {
+    margin-left: 145px !important;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 420px){ /* ready */
+  .w-100 {
+    margin-left: 114px !important;
+  }
+  .w-50 {
+    margin-left: 140px !important;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .wlc {
+    font-size: 42px;
+  }
+}
+@media all and (max-width: 395px){ /* ready */
+  .w-100 {
+    margin-left: 108px !important;
+  }
+  .w-50 {
+    margin-left: 133px !important;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  svg {
+    width: 35px;
+  }
+  .wlc {
+    text-align: center;
+  }
+}
+@media all and (max-width: 375px){ /* ready */
+  .w-100 {
+    margin-left: 103px !important;
+  }
+  .w-50 {
+    margin-left: 127px !important;
+  }
+  .wine {
+    width: 80px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .wlc {
+    margin-bottom: 0px;
+  }
+}
+@media all and (max-width: 355px){ /* ready */
+  h1 {
+    font-size: 32px;
+  }
+  svg {
+    width: 30px;
+  }
+  .w-100 {
+    margin-left: 97px !important;
+  }
+  .w-50 {
+    margin-left: 119px !important;
+  }
+  .wine {
+    width: 80px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .wlc {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 320px){ /* ready */
+  .w-100 {
+    margin-left: 88px !important;
+  }
+  .w-50 {
+    margin-left: 108px !important;
+  }
+  .wine, .block {
+    width: 60px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .wlc {
+    font-size: 36px;
+  }
+}
+@media all and (max-width: 240px){ /*  */
+  h1 {
+    font-size: 24px;
+    padding: 10px;
+  }
+  .btn {
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  svg {
+    width: 20px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  .w-100 {
+    margin-left: 66px !important;
+  }
+  .w-50 {
+    margin-left: 81px !important;
+  }
+  .counter {
+    margin-top: 15px;
+    padding: 0 7px;
+  }
+  .wine, .block {
+    width: 50px;
+  }
+  .wine {
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+  .wlc {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+}
