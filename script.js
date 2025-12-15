@@ -1,5 +1,5 @@
 function openingCountdown(){                         
-const openingDate = new Date ("December 3, 2025 8:00 AM"); 
+const openingDate = new Date ("December 25, 2025 10:00 AM"); 
 const now = new Date();                              
                 
 const diff=openingDate-now;                         
